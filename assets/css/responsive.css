@@ -319,4 +319,15 @@
 
      /* End of Footer Code */
 
+     /* Owl Carousel */
+
+     .owl-carousel.owl-drag .owl-item{
+         width: auto !important;
+     }
+
+     .owl-item .cloned{
+         display: none !important;
+     }      
+
+    
  }

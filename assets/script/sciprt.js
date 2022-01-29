@@ -17,7 +17,6 @@
 
 
 
-
 const burgerİcon = document.querySelector('.burger-icon');
 
 const burgerImg = document.querySelector('.burger-img');
