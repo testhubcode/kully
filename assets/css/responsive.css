@@ -209,10 +209,10 @@
          margin-bottom: 40px !important;
      }
 
-     .project-2,
+     /* .project-2,
      .project-3 {
          display: none !important;
-     }
+     } */
 
      .author {
          font-size: 24.1333px !important;
@@ -321,13 +321,6 @@
 
      /* Owl Carousel */
 
-     .owl-carousel.owl-drag .owl-item{
-         width: auto !important;
-     }
-
-     .owl-item .cloned{
-         display: none !important;
-     }      
-
+  
     
  }
