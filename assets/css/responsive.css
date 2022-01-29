@@ -1,6 +1,10 @@
  /* Small devices (landscape phones, 576px and up) */
  @media (max-width: 575px) {
 
+    *{
+        overflow-x: hidden;
+    }
+
      .container {
          width: auto !important;
          margin: 0 25.14px !important;
