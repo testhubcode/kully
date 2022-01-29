@@ -1,5 +1,3 @@
-
-
 @import url(responsive.css);
 
 
@@ -52,11 +50,14 @@ li {
     margin: 0 auto;
 }
 
-.cards,.home__container,.service__content{
+.cards,
+.home__container,
+.service__content {
     overflow: hidden;
 }
 
-.contact__text,.ftr-link{
+.contact__text,
+.ftr-link {
     overflow: hidden;
 }
 
@@ -141,7 +142,7 @@ li {
     z-index: 9;
 }
 
-.burger-icon-act{
+.burger-icon-act {
     position: fixed;
     right: 25.14px;
 }
@@ -150,104 +151,105 @@ li {
 
 /* Start of Burger  Menu Style Code */
 
-    .burger-menu{
-        display: none;
-    }
+.burger-menu {
+    display: none;
+}
 
-    .burger-menu-act{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
-    }
+.burger-menu-act {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
 
-    .burger-top{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        right: 0;
-        background: var(--main-color);
-        transition: all 0.4s;
-    }
+.burger-top {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: var(--main-color);
+    transition: all 0.4s;
+}
 
-    .burger-top-norm{
-        top: -100%;
-        height: 0;
-    }
+.burger-top-norm {
+    top: -100%;
+    height: 0;
+}
 
-    .burger-top-act{
-        top: 0;
-        height: 50%;
-        transition: all 0.4s;
-    }
+.burger-top-act {
+    top: 0;
+    height: 50%;
+    transition: all 0.4s;
+}
 
-    .burger-bottom{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        right: 0;
-        background: var(--main-color);
-        transition: all 0.4s;
-    }
+.burger-bottom {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: var(--main-color);
+    transition: all 0.4s;
+}
 
-    .burger-bottom-norm{
-        bottom: -100%;
-        height: 0;
-    }
+.burger-bottom-norm {
+    bottom: -100%;
+    height: 0;
+}
 
-    .burger-bottom-act{
-        bottom: 0;
-        height: 50%;
-        transition: all 0.4s;
-    }
+.burger-bottom-act {
+    bottom: 0;
+    height: 50%;
+    transition: all 0.4s;
+}
 
-    .burger-img{
-        width: 40px;
-        height: 40px;
-    }
+.burger-img {
+    width: 40px;
+    height: 40px;
+}
 
-    .burger-img-act{
-        transform: scale(0.7); 
-        filter: invert(1);
-    }
+.burger-img-act {
+    transform: scale(0.7);
+    filter: invert(1);
+}
 
-    .burger-top,.burger-bottom{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.burger-top,
+.burger-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .burger-top{
-        justify-content: flex-end;
-    }
+.burger-top {
+    justify-content: flex-end;
+}
 
-    .burger-bottom{
-        justify-content: flex-start;
-    }
+.burger-bottom {
+    justify-content: flex-start;
+}
 
-    .burger-link{
-        color: white;
-        font-size: 20px;
-        padding: 15px 0;
-        transition: all 0.5s;
-        width: 100%;
-        text-align: center;
-    }
+.burger-link {
+    color: white;
+    font-size: 20px;
+    padding: 15px 0;
+    transition: all 0.5s;
+    width: 100%;
+    text-align: center;
+}
 
-    .burger-link:hover{
-        display: block;
-        background: white;
-        color: var(--main-color);
-        text-align: center;
-    }
+.burger-link:hover {
+    display: block;
+    background: white;
+    color: var(--main-color);
+    text-align: center;
+}
 
-    .header-act{
-        height: 44px;
-        display: flex;
-        align-items: center;
-    }
+.header-act {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
 
 /* End of Burger Menu Style Code */
 
@@ -289,7 +291,7 @@ li {
     margin-top: 40px;
 }
 
-.home__btn:hover .arrow-up{
+.home__btn:hover .arrow-up {
     left: 3px;
     bottom: 3px;
 }
@@ -471,6 +473,14 @@ li {
 .project__btn {
     padding: 16px 68px;
     margin-bottom: 20px;
+    height: max-content;
+    align-self: flex-end;
+}
+
+.project__title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 79px;
 }
 
 .cards {
@@ -704,4 +714,3 @@ footer {
 /* .owl-item:last-of-type{
     margin-right: 0 !important;
 } */
-

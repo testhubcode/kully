@@ -1,9 +1,9 @@
  /* Small devices (landscape phones, 576px and up) */
  @media (max-width: 575px) {
 
-    *{
-        overflow-x: hidden;
-    }
+     * {
+         overflow-x: hidden;
+     }
 
      .container {
          width: auto !important;
@@ -41,9 +41,9 @@
 
      /* Start of Burger Menu Style Code */
 
-        .burger-menu{
-            display: block !important;
-        }
+     .burger-menu {
+         display: block !important;
+     }
 
      /* End of Burger Menu Style Code */
 
@@ -175,7 +175,7 @@
          margin-top: 40px !important;
      }
 
-     .planing__img  img{
+     .planing__img img {
          width: 100% !important;
          height: 387px !important;
      }
@@ -313,7 +313,7 @@
          margin-bottom: 32px !important;
      }
 
-     .copyright{
+     .copyright {
          margin-top: 32px !important;
      }
 
@@ -321,6 +321,35 @@
 
      /* Owl Carousel */
 
-  
-    
+     .owl-item {
+         overflow: hidden !important;
+     }
+
+     .owl-theme .owl-nav {
+         margin-top: 32px !important;
+     }
+
+     .owl-prev,
+     .owl-next {
+         width: 38px !important;
+         height: 38px !important;
+         border-radius: 100% !important;
+         color: white !important;
+         margin: 0 6px !important;
+        }
+     
+     .owl-prev span,
+     .owl-next span{
+         font-size: 27px !important;
+
+        }
+
+
+     .owl-prev {
+         background: #E8E7E6 !important;
+     }
+
+     .owl-next {
+         background: #0C646D !important;
+     }
  }
