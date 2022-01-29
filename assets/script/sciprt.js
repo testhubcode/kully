@@ -1,3 +1,23 @@
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const burgerİcon = document.querySelector('.burger-icon');
 
 const burgerImg = document.querySelector('.burger-img');
@@ -77,7 +97,7 @@ burgerİcon.addEventListener('click', function () {
 
         value = true;
 
-
     }
 
-})
+});
+

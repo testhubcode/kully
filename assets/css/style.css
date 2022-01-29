@@ -1,3 +1,5 @@
+
+
 @import url(responsive.css);
 
 
@@ -208,6 +210,7 @@ li {
 
     .burger-img-act{
         transform: scale(0.7); 
+        filter: invert(1);
     }
 
     .burger-top,.burger-bottom{
