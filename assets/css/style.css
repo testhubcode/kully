@@ -55,6 +55,10 @@ li {
     overflow: hidden;
 }
 
+.contact__text,.ftr-link{
+    overflow: hidden;
+}
+
 /* Start of Header Style Code */
 .header {
     margin-top: 40px;
