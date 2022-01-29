@@ -1,0 +1,318 @@
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 575px) {
+
+     .container {
+         width: auto !important;
+         margin: 0 25.14px !important;
+     }
+
+
+     /* Start of Hedaer Style Code */
+
+     .header {
+         margin-top: 40.22px !important;
+         margin-bottom: 80.44px !important;
+     }
+
+     .logo {
+         font-size: 24.1333px !important;
+         line-height: 33.79px !important;
+     }
+
+     .navbar__list {
+         display: none !important;
+     }
+
+     .header__btn {
+         display: none !important;
+     }
+
+     .burger-icon {
+         display: inline-block !important;
+         transform: matrix(-1, 0, 0, 1, 0, 0);
+     }
+
+     /* End of Header Style Code */
+
+
+     /* Start of Burger Menu Style Code */
+
+        .burger-menu{
+            display: block !important;
+        }
+
+     /* End of Burger Menu Style Code */
+
+     /* Start of Home Style Code */
+
+     .home {
+         margin-top: 0 !important;
+     }
+
+     .home__content {
+         flex-direction: column !important;
+     }
+
+     .home__title {
+         font-weight: 600 !important;
+         font-size: 32.1778px !important;
+         line-height: 150% !important;
+         margin-bottom: 12.07px !important;
+     }
+
+     .home__info {
+         font-size: 16.0889px !important;
+         line-height: 28.96px !important;
+     }
+
+     .home__btn {
+         margin-top: 24.13px !important;
+     }
+
+     .none-2 {
+         display: none !important;
+     }
+
+     .home__img {
+         height: 175px !important;
+         margin-top: 40.22px !important;
+     }
+
+     /* End of Home Style Code */
+
+
+     /* Start of Service Code */
+
+     .service {
+         margin-top: 120px !important;
+     }
+
+     .service__content {
+         flex-direction: column !important;
+         margin-top: 24px !important;
+     }
+
+     .service__title {
+         font-weight: 800 !important;
+         font-size: 26.1444px !important;
+         line-height: 36px !important;
+     }
+
+     .service__box {
+         padding: 12px !important;
+         margin-bottom: 24px !important;
+     }
+
+     .service__box:last-child {
+         margin-bottom: 0 !important;
+     }
+
+     .service__box h4 {
+         margin-bottom: 12px !important;
+         font-size: 24.1333px !important;
+         line-height: 33px !important;
+     }
+
+     .service__text {
+         font-size: 16.0889px !important;
+         line-height: 22px !important;
+     }
+
+     /* End of Service Code */
+
+
+     /* Start of  Planing Code */
+
+     .planing {
+         margin-top: 120px !important;
+     }
+
+     .planing__wrapper {
+         flex-direction: column !important;
+     }
+
+     .planing__title {
+         margin-bottom: 24px !important;
+         font-size: 26.1444px !important;
+         line-height: 36px !important;
+     }
+
+     .planing__left {
+         margin-right: 0 !important;
+     }
+
+     .none-3 {
+         display: none !important;
+     }
+
+     .planing__list {
+         grid-template-columns: auto !important;
+         row-gap: 24px !important;
+         column-gap: 0 !important;
+     }
+
+     .planing__heading {
+         font-size: 24.1333px !important;
+         line-height: 33px !important;
+     }
+
+     .step {
+         font-size: 20.1111px !important;
+         line-height: 27px !important;
+         margin-bottom: 12px !important;
+     }
+
+     .planing__info {
+         font-size: 16.0889px !important;
+         line-height: 24.13px !important;
+     }
+
+     .planing__right {
+         margin-top: 40px !important;
+     }
+
+     .planing__img  img{
+         width: 100% !important;
+         height: 387px !important;
+     }
+
+
+     /* End of Planing Code */
+
+
+
+     /* Start of Project Code */
+
+     .project {
+         margin-top: 120px !important;
+     }
+
+     .project__top {
+         flex-direction: column !important;
+     }
+
+     .none-4 {
+         display: none !important;
+     }
+
+     .project__title {
+         font-size: 26.1444px !important;
+         line-height: 36px !important;
+     }
+
+     .project__btn {
+         margin-top: 24px !important;
+         margin-bottom: 40px !important;
+     }
+
+     .project-2,
+     .project-3 {
+         display: none !important;
+     }
+
+     .author {
+         font-size: 24.1333px !important;
+         line-height: 33px !important;
+     }
+
+     .design {
+         font-size: 18.1px !important;
+         line-height: 25px !important;
+     }
+
+     .cards {
+         width: 100%;
+         display: block !important;
+     }
+
+     .card {
+         width: 100%;
+         margin-left: 0 !important;
+         margin-right: 0 !important;
+     }
+
+     .card img {
+         margin-right: auto !important;
+         overflow: hidden !important;
+     }
+
+     /* End of Project Code */
+
+
+     /* Start of Contact Code */
+
+     .contact {
+         display: none;
+     }
+
+     .mbc {
+         margin-top: 120px !important;
+         padding: 67px 0 !important;
+         background: url(../img/mbc-bg.png) #0C646D no-repeat;
+         background-size: cover;
+         display: block !important;
+     }
+
+     .mbc__title {
+         font-size: 26.1444px !important;
+         line-height: 36px !important;
+         margin-bottom: 12px !important;
+         color: white;
+     }
+
+     .mbc__text {
+         font-size: 16.0889px !important;
+         line-height: 20px !important;
+         margin-bottom: 24px !important;
+         color: white;
+     }
+
+     .mbc__btn {
+         padding: 12px 50px !important;
+         background: white !important;
+         color: #0C646D !important;
+     }
+
+     /* End of Contact Code */
+
+
+     /* Start of Footer Code */
+
+     .footer {
+         padding-top: 120px !important;
+     }
+
+     .ftr-nav-list {
+         flex-direction: column !important;
+         align-items: center !important;
+         justify-content: space-between !important;
+     }
+
+     .ftr-item {
+         margin: 20px 0 !important;
+     }
+
+     .ftr-item:first-child {
+         margin-top: 0 !important;
+     }
+
+     .ftr-item:last-child {
+         margin-bottom: 0 !important;
+     }
+
+     .ftr-link {
+         margin: 0 !important;
+     }
+
+     .line {
+         margin-top: 32px !important;
+         margin-bottom: 32px !important;
+     }
+
+     .copyright{
+         margin-top: 32px !important;
+     }
+
+     /* End of Footer Code */
+
+ }
