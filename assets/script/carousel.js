@@ -32,11 +32,16 @@ $('.owl-carousel').owlCarousel({
             items: 1,
             nav: true
         },
-        600: {
-            items: 3,
-            nav: false
+        576:{
+            items:2,
+            margin : 24,
+            nav:true
         },
-        1000: {
+        992:{
+            items:3,
+            margin:24
+        },
+        1200: {
             items: 3,
             nav: false,
             dots:false,
